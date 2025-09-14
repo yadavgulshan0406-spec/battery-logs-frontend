@@ -1,5 +1,5 @@
 // Replace with your deployed Render backend URL
-const BACKEND_URL = "https://battery-logs-backend.onrender.com/";
+const BACKEND_URL = "https://battery-logs-backend.onrender.com";
 
 async function fetchBatteryData() {
   const buid = document.getElementById("buidInput").value;
